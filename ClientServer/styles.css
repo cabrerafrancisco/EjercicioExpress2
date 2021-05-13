@@ -1,0 +1,52 @@
+html{
+    font-size: 62.5%; /* reset para el REM - 62.5% = 10px de 16px // lo agrega para acomodar los REM para que no sea tan grande pero ami se me achica mucho la letra*/
+    box-sizing: border-box;/*es para que el paddin no afecte los botones para limitar su tamaño, creao por el programador de google*/
+} 
+* , *:before , *:after{
+    box-sizing: inherit; /*es para que el paddin no afecte los botones para limitar su tamaño, creao por el programador de google*/
+    /*por ejemplo si ponemos un tamaño de 10px y ademas un paddin, este ultimo no va a afectar los 10px*/
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4; /*separa o agrega el interlineado*/
+}
+
+.boton{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0.9rem 2.8rem;
+    margin-top: 2.8rem;
+    display: inline-block; /*los enlaces y las imagenes son inline-block mientras que los textos o parrafos pueden ser solo block*/
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    flex: 0 0 100%;
+
+}
+.boton-azul{
+    background-color: #395cbb;
+}
+
+/*Formulario*/
+
+form p{
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    margin: 2rem 0 1rem 0;
+}
+legend{
+    font-size: 2.2rem;
+    columns: #4f4f4f;
+}
+
+label{
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block; /*para que no se amontonen todos*/
+}
